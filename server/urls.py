@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,re_path
-from app.views import hello_world
-from app.views import blank
-from app.views import blank1
-from app.views import blank2
-from app.views import blank3
-from app.views import index
+from justapp.views import hello_world
+from justapp.views import blank
+from justapp.views import blank1
+from justapp.views import blank2
+from justapp.views import blank3
+from justapp.views import index
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import url

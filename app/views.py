@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
-from app.forms import HomeForm
+from justapp.forms import HomeForm
 
 def hello_world(request):
     return render(request, 'hello_world.html', {

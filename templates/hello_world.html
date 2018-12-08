@@ -16,19 +16,16 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">漏洞偵測</h1>
+                        <h1 class="page-header">測試網頁</h1>
                     </div>
-
                     <!-- /.col-lg-12 -->
                 </div>
-
                     <form method="post">
                             {% csrf_token %}
                             {{ form.as_p }}
                         <input type="text" name=text>
                         <input type="submit" value="送出">
                     </form>
-
                 <!-- /.row -->
                 <div class="row">
                 <div class="col-lg-12">
@@ -39,7 +36,7 @@
                             {{ text }}
                         </textarea>
                     </div>
-                    
+                    {{ text }}
                 </div>
             </div>
         </div>
